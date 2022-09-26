@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <form action="#" class="form">
+        <h2 class="text-center">Registration Form</h2>
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="progress-step progress-step-active" data-title="Intro"></div>
+            <div class="progress-step" data-title="Contact"></div>
+            <div class="progress-step" data-title="ID"></div>
+            <div class="progress-step" data-title="Password"></div>
+
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">
+                <label for="username">USERNAME  </label>
+                <input type="text" name="username" placeholder="abc123" id="username">
+            </div>
+            <div class="input-group">
+                <label for="position">POSITION</label>
+                <input type="position" name="position" id="position">
+            </div>
+            <div class="">
+                <a href="#" class="btn btn-next width">NEXT</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="username">PHONE </label>
+                <input type="number" name="phone" placeholder="0123456789"id="phone">
+            </div>
+            <div class="input-group">
+                <label for="position">EMAIL</label>
+                <input type="text" name="email" placeholder="abc@gmail.com" id="email">
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">PREVIOUS</a>
+                <a href="#" class="btn btn-next ">NEXT</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="username">DATE OF BIRTH </label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div class="input-group">
+                <label for="ID">NATIONAL ID</label>
+                <input type="number" name="ID"  id="ID">
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">PREVIOS</a>
+                <a href="#" class="btn btn-next ">NEXT</a>
+            </div>
+        </div>
+        <div class="form-step">
+           
+            <div class="input-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password"  id="password">
+            </div>
+            <div class="input-group">
+                <label for="confirmedPassword">CONFIRMED PASSWORD </label>
+                <input type="password" name="confirmedPassword" confirmedPassword="confirmedPassword">
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">PREVIOUS</a>
+                <input type="submit" value="submit" class="btn">
+            </div>
+        </div>
+    </form>
+
+    
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="register.js"></script>
+</html>
